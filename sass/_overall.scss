@@ -1,0 +1,67 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn-reset {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.list-reset {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.btn {
+    padding: 20px;
+    min-width: 180px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    background-color: $color-light;
+    color: $color-dark;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.btn-light {
+    background-color: $color-light;
+    color: $color-dark;
+}
+
+.btn-light:hover {
+    background-color: $color-dark;
+    color: $color-light;
+}
+
+.btn-dark {
+    background-color: $color-dark;
+    color: $color-light;
+}
+
+.btn-dark:hover {
+    background-color: $color-light;
+    color: $color-dark;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+}

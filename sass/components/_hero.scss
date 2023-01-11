@@ -1,0 +1,28 @@
+.hero {
+    padding-top: calc(120px + 150px);
+    padding-bottom: 40px;
+    height: 100vh;
+    min-height: 900px;
+    background-image: url('../img/hero-cover.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__title {
+        margin: 0;
+        margin-bottom: 30px;
+        max-width: 936px;
+        font-weight: 600;
+        font-size: 96px;
+        line-height: 116px;
+        color: $color-light;
+    }
+    &__descr {
+        margin: 0;
+        margin-bottom: 50px;
+        max-width: 468px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: $color-light;
+    }
+}

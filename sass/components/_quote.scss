@@ -1,0 +1,33 @@
+.quote {
+    padding-bottom: var(--offset);
+    &__title {
+        margin: 0;
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: $color-grey;
+    }
+    &__content {
+        margin: 0;
+        max-width: 820px;
+    }
+    &__text {
+        margin: 0;
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 150%;
+        color: $color-dark;
+    }
+    &__author {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: $color-dark;
+    }
+    &__author span{
+        color: $color-grey;
+    }
+}
